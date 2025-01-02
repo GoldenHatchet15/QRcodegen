@@ -1,0 +1,53 @@
+/* Instructions Page */
+.instructions, .faqs, .troubleshooting {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    /* make round */
+    border-radius: 50%;
+}
+.instructions h2, .faqs h2, .troubleshooting h2 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+/* Back to Home Button */
+.back-home {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-home .back-button {
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    display: inline-block; /* Ensure proper button behavior */
+    transition: background-color 0.3s ease;
+}
+
+.back-home .back-button:hover {
+    background-color: #ffffff;
+    color: #4CAF50;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
