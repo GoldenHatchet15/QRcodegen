@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QR Code Generator</title>
-    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}">
 </head>
 <body>
     <!-- Logo Section -->
     <div class="branding">
-        <img src="Assets/logo.png" alt="Brand Logo" class="logo">
+        <img src="{{ url_for('static', filename='logo.jpg') }}" alt="Brand Logo" class="logo">
     </div>
 
     <!-- Title -->
@@ -22,15 +23,15 @@
         <button type="submit">Generate QR Code</button>
     </form>
 
+    <!-- Help Section -->
     <div class="help">
-        <a href="instructions.html"><button class="help-button">Need Help?</button></a>
+        <a href="/instructions" class="help-button">Need Help?</a>
+    </div>
 
     <!-- Donate Section -->
     <div class="donate">
         <p>If you like this service, consider supporting us:</p>
-        <a href="https://www.paypal.com/donate/?business=MY4M56Z3EEM8G&no_recurring=0&currency_code=USD" target="_blank">
-            <button class="donate-button">Donate</button>
-        </a>
+        <a href="https://www.paypal.com/donate/?business=MY4M56Z3EEM8G&no_recurring=0&currency_code=USD" target="_blank" class="donate-button">Donate</a>
     </div>
 
     <!-- Footer Section -->
