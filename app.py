@@ -31,7 +31,7 @@ def generate_qr_code(data):
     img_io.seek(0)
     return img_io
 
-@app.route("/home", methods=["GET", "POST"])
+@app.route("/", methods=["GET", "POST"])
 def index():
     if request.method == "POST":
         data = request.form.get("data")
