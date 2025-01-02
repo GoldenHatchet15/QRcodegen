@@ -1,0 +1,93 @@
+
+Here are detailed step-by-step instructions tailored 
+for the most common QR code generator use cases. 
+To help users better understand how to use the generator.
+
+Common QR Code Use Cases
+Website URLs
+Contact Information (vCard)
+Plain Text
+Wi-Fi Login
+Email Address
+Phone Numbers
+Instructions for Each Use Case:
+
+1. Generating a QR Code for a Website URL
+Example: You want to link to https://example.com.
+Steps:
+Go to the QR Code Generator home page.
+In the text box, enter the URL (e.g., https://example.com).
+Click the Generate QR Code button.
+Download the generated QR code and use it on your website, brochures, or flyers.
+
+2. Generating a QR Code for Contact Information (vCard)
+Example: You want to share your contact details in a QR code.
+Steps:
+Go to the QR Code Generator home page.
+In the text box, use the following format for your contact details:
+makefile
+Copy code:
+
+BEGIN:VCARD
+VERSION:3.0
+N:Doe;John;;;
+FN:John Doe
+TEL:+1234567890
+EMAIL:john.doe@example.com
+END:VCARD
+
+
+Click the Generate QR Code button.
+Download the QR code and share it in emails, business cards, or presentations.
+
+
+3. Generating a QR Code for Plain Text
+Example: You want to share a simple message or instructions.
+Steps:
+Go to the QR Code Generator home page.
+In the text box, type your message (e.g., "Welcome to our event! Scan this code for details.").
+Click the Generate QR Code button.
+Download the QR code and display it on posters or presentations.
+
+
+4. Generating a QR Code for Wi-Fi Login
+Example: You want users to connect to your Wi-Fi network easily.
+Steps:
+Go to the QR Code Generator home page.
+In the text box, use the following format for your Wi-Fi details:
+css
+Copy code:
+
+WIFI:S:YourNetworkSSID;T:WPA;P:YourPassword;;
+
+Replace YourNetworkSSID with your Wi-Fi network name.
+Replace YourPassword with your Wi-Fi password.
+Click the Generate QR Code button.
+Download the QR code and display it in your home or office for guests.
+
+
+5. Generating a QR Code for an Email Address
+Example: You want users to email you by scanning the QR code.
+Steps:
+Go to the QR Code Generator home page.
+In the text box, enter your email in the following format:
+graphql
+Copy code:
+
+mailto:your.email@example.com
+
+Click the Generate QR Code button.
+Download the QR code and use it in brochures, websites, or newsletters.
+
+6. Generating a QR Code for a Phone Number
+Example: You want users to call your number by scanning the QR code.
+Steps:
+Go to the QR Code Generator home page.
+In the text box, enter your phone number in the following format:
+makefile
+Copy code:
+
+tel:+1234567890
+
+Click the Generate QR Code button.
+Download the QR code and print it on business cards or posters.
