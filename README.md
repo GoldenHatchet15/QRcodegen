@@ -125,10 +125,5 @@ Event information
 
 Location sharing
 
-## License
-
-This project is open-source and available under the MIT License. Feel free to use, modify, and distribute it.
-
-## Contributing
-
-Contributions are welcome! If you have suggestions or improvements, please submit a pull request.
+## Author 
+GoldenHatchet15 
